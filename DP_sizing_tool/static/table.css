@@ -1,0 +1,171 @@
+/****************
+ * Table Styles *
+ ****************/
+.header_tr {
+    font-size: 9pt;
+    background-color:#BEDCFC;
+    color:#444;
+}
+.even_tr {
+    background-color: #EDF6FF;
+}
+.odd_tr {
+    background-color: #DFE7EF;
+}
+.newopen_header th {
+    border-bottom: 1px solid #468CB9;
+    color: #555;
+    font-size: 10pt;
+    text-align: left;
+}
+div.presented {
+    background-image: url('../images/icons/monitor_go.png');
+    background-repeat: none;
+    width:16px;
+    cursor: default;
+}
+div.won {
+    background-image: url('../images/icons/thumb_up.png');
+    background-repeat: none;
+    width:16px;
+    cursor: default;
+}
+div.lost {
+    background-image: url('../images/icons/thumb_down.png');
+    background-repeat: none;
+    width:16px;
+    cursor: default;
+}
+
+/* Table Classes */
+th.dataTable                    {   background-color: #BEDCFC;
+                                    padding: 0px 3px 2px 3px;
+                                    height: 21; }
+
+th.dataTableRow                 {   text-align: left;
+                                    font-weight: normal;
+                                    background-color: #BEDCFC;
+                                    padding: 0px 5px 0px 5px;
+                                    height: 21; }
+
+table.dataTable                 {   padding: 0px 0px 0px 0px;
+                                    background-color: black;
+                                    border: none; }
+
+td.dataTableDataLeftReadOnly    {   background-color: #D0D0D0;
+                                    padding: 2px 2px 2px 2px;
+                                    height: 21; }
+
+th.dataTableRowStrong           {   text-align: left;
+                                    background-color: #BEDCFC;
+                                    padding: 0px 5px 0px 5px;
+                                    height: 21; }
+
+td.dataTableDataReadOnly        {   text-align: right;
+                                    background-color: #D0D0D0;
+                                    padding: 2px 2px 2px 2px;
+                                    height: 21; }
+
+td.dataTableDataCenterReadOnly  {   text-align: center;
+                                    background-color: #D0D0D0;
+                                    padding: 2px 2px 2px 2px;
+                                    height: 21; }
+
+input.dataTableDataReadOnly     {   text-align: right;
+                                    background-color: #D0D0D0;
+                                    padding: 2px 2px 2px 2px;
+                                    height: 15;
+                                    width: 120;
+                                    border: none }
+
+th.dataTableRowIndent           {   text-align: left;
+                                    font-weight: normal;
+                                    background-color: #BEDCFC;
+                                    padding: 2px 2px 2px 17px;
+                                    height: 21; }
+
+th.dataTableRowBigIndent        {   text-align: left;
+                                    font-weight: normal;
+                                    background-color: #BEDCFC;
+                                    padding: 2px 2px 2px 27px;
+                                    height: 21; }
+
+input.editable                  {   border: none;
+                                    text-align: right; }
+
+textarea.editable               {   border: none;
+                                    resize: none; }
+
+textarea.readOnly               {   border: none; 
+                                    resize: none; }
+
+textarea.kpieditable            {   border: none; 
+                                    overflow: auto; 
+                                    resize: none; }
+
+textarea.kpiReadOnly            {   border: none;
+                                    overflow: auto;
+                                    background-color: #BEDCFC; 
+                                    resize: none; }
+
+input.readOnly                  {   background-color: #D0D0D0; 
+                                    border: none; 
+                                    text-align: right; }
+
+td.editable                     {   background-color: white;
+                                    height: 21px;
+                                    text-align: right;
+                                    padding: 2px 5px 2px 5px; }
+
+td.readOnly, td.dataCell        {   background-color: #D0D0D0;
+                                    height: 21px; 
+                                    text-align: right; 
+                                    padding: 2px 5px 2px 5px; }
+                                    
+/* Struts tab stuff */
+/*.ongletTextEna                  {   BORDER-RIGHT: black 1px solid;
+                                    BORDER-TOP: black 1px solid;
+                                    BORDER-LEFT: black 1px solid;
+                                    BORDER-BOTTOM: none;
+                                    FONT-WEIGHT: bold;
+                                    BACKGROUND: #BEDCFC;
+                                    TEXT-ALIGN: center;
+                                    padding: 0px 5px 0px 5px; }*/
+
+/*.ongletTextDis                  {   BORDER-RIGHT: black 1px solid;
+                                    BORDER-TOP: black 1px solid;
+                                    BORDER-LEFT: black 1px solid;
+                                    BORDER-BOTTOM: black 1px solid;
+                                    FONT-WEIGHT: bold;
+                                    COLOR: black;
+                                    BACKGROUND-COLOR: #D0D0D0;
+                                    TEXT-ALIGN: center;
+                                    padding: 0px 5px 0px 5px; }*/
+/*
+.ongletTextErr                  {   BORDER-RIGHT: black 1px solid;
+                                    BORDER-TOP: black 1px solid;
+                                    BORDER-LEFT: black 1px solid;
+                                    BORDER-BOTTOM: black 1px solid;
+                                    FONT-WEIGHT: bold;
+                                    COLOR: #FFFFFF;
+                                    BACKGROUND-COLOR: #ED4F50;
+                                    MARGIN: 0cm 0cm 0cm 0cm;
+                                    TEXT-ALIGN: center; }
+
+.ongletSpace                    {   BORDER-BOTTOM: black 1px solid; }
+
+.ongletMiddle                   {   BORDER-RIGHT: black 1px solid;
+                                    BORDER-TOP: none;
+                                    BORDER-LEFT: black 1px solid;
+                                    BORDER-BOTTOM: none;
+                                    FONT-SIZE: 1px;
+                                    BACKGROUND-COLOR: #BEDCFC; }
+
+.ongletMain                     {   BORDER-RIGHT: black 1px solid;
+                                    BORDER-TOP: none;
+                                    BORDER-LEFT: black 1px solid;
+                                    BORDER-BOTTOM: black 1px solid;
+                                    BACKGROUND: #BEDCFC; }*/
+
+.clsAction                      {   font-weight: bold;
+                                    color: #053c6d; }

@@ -1,0 +1,313 @@
+/*****************
+ * Common Styles *
+ *****************/
+* {
+    font-family: Tahoma, Arial, Verdana, Helvetica, sans-serif;
+    font-size: 8pt;
+}
+body { 
+    margin: 0 auto;
+}
+a img {
+    border: 0px;
+    text-decoration: none;
+    padding-right: 4px;    
+}
+img {
+   vertical-align: bottom; 
+}
+legend {
+    padding: 0px 10px 5px 5px;
+}
+.optionDesc {
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    float: top;
+}
+.subHeader {
+    font-size: 9pt;
+    font-weight: bold;
+    color: #458CBA;
+}
+.mainHeader {
+    font-size: 10pt;
+    font-weight: bold;
+    color: #555;
+    text-align: center;
+}
+/******************
+ * New Div Buttons*
+ ******************/
+button.submitBtn{
+        border:none;
+        background:none;
+        padding:0;
+        margin:0 5px 0 5px;
+        width:auto;
+        overflow:visible;					
+        text-align:center;	
+        white-space:nowrap;	
+        height:28px;
+        line-height:26px;
+        }
+button.submitBtn span, button.submitBtn em{
+        display:block;
+        height:28px;
+        line-height:26px;			
+        margin:0;
+        }	
+button.submitBtn span{
+        padding-left:20px;
+        background:url(../images/bg_button.png) no-repeat 0 0;
+        }	
+button.submitBtn em{
+        color:#fff;
+        font-style:normal;
+        font-weight:bold;
+        padding-right:20px;
+        padding-left:10px;
+        background:url(../images/bg_button.png) no-repeat 100% 0;
+        }
+button.submitBtn:hover span{
+        background:url(../images/bg_button_over.png) no-repeat 0 0;
+        }
+button.submitBtn:hover em{
+        background:url(../images/bg_button_over.png) no-repeat 100% 0;
+}
+button.submitBtn:disabled {
+    cursor:default;
+}
+button.submitBtn:disabled span{
+        background:url(../images/bg_button_disabled.png) no-repeat 0 0;
+}
+button.submitBtn:disabled em{
+        color:#000;
+        font-weight:bold;
+        background:url(../images/bg_button_disabled.png) no-repeat 100% 0;
+}
+
+/***********************************/
+/* Styles for Icons on the Buttons */
+/***********************************/
+button.submitBtn div{
+        margin-top:6px;
+        margin-left:-10px;
+        width:16px;
+        height:16px;
+        position:absolute;
+}
+button.submitBtn div.createAnalysis {
+        background-image: url(../icons16/application_form_add.png);
+}
+button.submitBtn div.saveAs {
+        background-image: url(../icons16/saveAs.png);
+}
+button.submitBtn div.cancelFolder {
+        background-image: url(../icons16/cross.png);
+}
+button.submitBtn div.copyAnalysis {
+        background-image: url(../icons16/page_white_copy.png);
+}
+button.submitBtn div.print {
+        background-image: url('../icons16/printer.png');
+}
+button.submitBtn div.changePassword {
+        background-image: url('../icons16/lock.png');
+}
+button.submitBtn div.changeCurrencyButton {
+        background-image: url('../icons16/money.png');
+}
+button.submitBtn div.submit {
+        background-image: url('../icons16/email_go.png');
+}
+button.submitBtn div.collaborateFolder {
+        background-image: url('../icons16/collaborateFolderIcon.gif');
+}
+button.submitBtn div.createFolder {
+        background-image: url('../icons16/folder_add.png');
+}
+button.submitBtn div.deleteAnalysis {
+        background-image: url('../icons16/page_white_delete.png');
+}
+button.submitBtn div.deleteFolder {
+        background-image: url('../icons16/folder_delete.png');
+}
+button.submitBtn div.exportAnalysis {
+        background-image: url('../icons16/page_white_get.png');
+}
+button.submitBtn div.importAnalysis {
+        background-image: url('../icons16/page_white_put.png');
+}
+button.submitBtn div.renameAnalysis {
+        background-image: url('../icons16/page_white_edit.png');
+}
+button.submitBtn div.renameFolder {
+        background-image: url('../icons16/folder_edit.png');  
+}
+button.submitBtn div.uncollaborate {
+        background-image: url('../icons16/user_delete.png');
+}
+button.submitBtn div.importMetric {
+        background-image: url('../icons16/metricImport.gif');
+}
+button.submitBtn div.save {
+        background-image: url('../icons16/disk.png');
+}
+button.submitBtn div.peerSelect {
+        background-image: url('../icons16/application_form.png');
+}
+button.submitBtn div.peerAdd {
+        background-image: url('../icons16/application_form_add.png');
+}
+button.submitBtn div.searchFolder {
+        background-image: url('../icons16/find.png');
+}
+button.submitBtn div.registration {
+        background-image: url('../icons16/user_add.png');
+}
+button.submitBtn div.printButton {
+        background-image: url('../icons16/printer.png');
+}
+button.submitBtn div.inviteToCollaborateButton {
+        background-image: url('../icons16/collaborate16x16.png');
+}
+button.submitBtn div.updateNotesButton {
+        background-image: url('../icons16/comment_edit.png');
+}
+button.submitBtn div.updateAuditButton {
+        background-image: url('../icons16/calculator_edit.png');
+}
+button.submitBtn div.changePreferencesButton {
+        background-image: url('../icons16/application_view_columns.png');
+}
+button.submitBtn div.createProjectIcon {
+        background-image: url('../icons16/application_form_add.png');
+}
+button.submitBtn div.addKPIButton {
+        background-image: url('../icons16/application_form_add.png');
+}
+button.submitBtn div.benefitAdd {
+        background-image: url('../icons16/application_form_add.png');
+}
+button.submitBtn div.investmentAdd {
+        background-image: url('../icons16/application_form_add.png');
+}
+button.submitBtn div.templateNoUpdate {
+        background-image: url('../icons16/application.png');
+}
+button.submitBtn div.templateUpdate {
+        background-image: url('../icons16/application_refresh.png');
+}
+button.submitBtn div.updateAll {
+        background-image: url('../icons16/sitemap.png');
+}
+button.submitBtn div.updateChanged {
+        background-image: url('../icons16/sitemap_color.png');
+}
+button.submitBtn div.back {
+        background-image: url('../icons16/control_back_blue.png');
+}
+button.submitBtn div.buttonToLink {
+   color: #00f;
+   background-color: transparent;
+   text-decoration: underline;
+   border: none;
+   cursor: pointer;
+   cursor: hand;
+}
+/******************
+ * Folder Buttons *
+ **************** */
+input.button {
+    padding: 5px 0px 5px 20px; 
+    width: 150px; 
+    border: 2px solid #B2B0B1; 
+    background: #EEE url(../images/button_bg.gif) no-repeat;
+    background-position: 3px;
+    cursor: hand;
+}
+.buttonCatLabel {
+    padding: 5px 0px 5px 20px; 
+    width: 130px; 
+    border: 1px solid #555; 
+    background-color: #ece9d8; 
+    background-repeat: no-repeat;
+    background-position: 3px;
+    cursor: hand;
+}
+
+fieldset {
+    padding-left: 8px; 
+    padding-bottom: 8px;
+    width: 100%;
+}
+legend {
+    font-size: 9pt;
+    font-weight: bold;
+    color: #458CBA;
+}
+
+
+/**********************
+ * Spreadsheet Styles *
+ **********************/
+input.buttonToLink {
+   color: #00f;
+   background-color: transparent;
+   text-decoration: underline;
+   border: none;
+   cursor: pointer;
+   cursor: hand;
+  }
+  
+/**********************
+ * Catlabel Styles    *
+ **********************/
+.catlabel-container {
+    table-layout: fixed;
+}
+
+.catlabel-topleft {
+    width: 15px; 
+    background-image: url("../../images/tables/bubbleTL.png"); 
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    overflow: hidden;
+}
+.catlabel-top {
+    background-image: url("../../images/tables/bubbleTM.png");
+    background-repeat: repeat-x;
+    background-position: bottom center;
+    width: 100%;
+    overflow: hidden;
+}
+.catlabel-topright {
+    width: 15px; 
+    background-image: url("../../images/tables/bubbleTR.png"); 
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    overflow: hidden;
+}
+.catlabel-middle {
+    padding-left: 5px; 
+    padding-right: 5px; 
+    padding-bottom: 5px; 
+    background: #E4EEF6 url("../../images/tables/bubble-bg.png") repeat-x; 
+    border-left: solid 1px #2a2b2c; 
+    border-bottom: solid 1px #2a2b2c; 
+    border-right: solid 1px #2a2b2c;
+}
+.catlabel-right {
+    width: 5px; 
+    background: url("../../images/tables/trOut.png");
+    background-repeat: repeat-y;
+}
+.catlabel-bottom {
+    background: url("../../images/tables/trBottom.png");
+    background-repeat: repeat-x;
+}
+.catlabel-bottom-right {
+    background: url("../../images/tables/corner.png");
+    background-repeat: no-repeat;
+    width: 5px;
+}   
